@@ -1,0 +1,55 @@
+.label{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-label-padding: 5 10 5 10;
+
+}
+
+#leftVBox{
+    -fx-pref-width: 454px;
+}
+
+#txtVBox{
+
+    -fx-pref-width: 454px;
+}
+
+#bankPane{
+    -fx-max-width: 186px;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+    -fx-border-style: solid;
+    -fx-opacity: 50%;
+}
+#categoryPane{
+    -fx-max-width: 186px;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+    -fx-border-style: solid;
+    -fx-opacity: 100%;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-vbar-policy : always;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.text-area .content{
+    -fx-background-color: transparent;
+    -fx-background-image: url(images/log.png);
+}.text-area{
+     -fx-font-size: 18pt;
+     -fx-font-weight: bold;
+     -fx-text-fill: white;
+     -fx-background-image: url(images/log.png);
+    -fx-background-color: transparent;
+}
